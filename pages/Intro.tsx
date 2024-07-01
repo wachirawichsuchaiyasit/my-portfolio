@@ -19,9 +19,9 @@ export default function IntroHome() {
                     <Image
                         src={"/image/logo.png"}
                         alt="Picture of the author"
-                        width={1200}
+                        width={900}
                         height={1000}
-                        className="mx-auto mt-12 lg:mt-24"
+                        className="mx-auto mt-12 lg:mt-24 bg-red-200 md:w-[1000xp]"
                     />
                     <p className="text-2xl text-center text-gray-700 font-black md:text-5xl lg:text-6xl">COMPUTER SCIENCE</p>
 
