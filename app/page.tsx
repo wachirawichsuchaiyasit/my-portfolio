@@ -4,6 +4,8 @@ import IntroHome from "@/pages/Intro";
 import Section from "@/components/Section";
 import React, { ReactNode } from "react";
 import Stack from "@/pages/Stack";
+import MyProject from "@/pages/Project";
+import Contact from "@/pages/Contact";
 
 export default function Home() {
   return (
@@ -21,6 +23,12 @@ export default function Home() {
               </Section>
               <Section>
                 <Stack />
+              </Section>
+              <Section>
+                <MyProject />
+              </Section>
+              <Section>
+                <Contact />
               </Section>
             </div>
           </SubLayout>
